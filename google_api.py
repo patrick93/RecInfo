@@ -12,5 +12,3 @@ def get_links(query):
 	for item in content['items']:
 		links.append(item['link'])
 	return links
-
-print(get_links("lectures"))
